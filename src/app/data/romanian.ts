@@ -2,8 +2,8 @@ import { NavbarLanguage, ContentLanguage } from "../model/languange.model";
 
 export const RO_NAVBAR: NavbarLanguage = {
   h1: "Neuropsihologia",
-  h2: "Evaluarea neuropsihologica",
-  h3: "Terapia neuropsihologica",
+  h2: "Evaluarea neuropsihologică",
+  h3: "Terapia neuropsihologică",
   h4: "Psihologia clinică",
   h5: "Despre mine",
   h6: "Tarife",
@@ -23,7 +23,7 @@ export const RO_CONTENT: ContentLanguage = {
     t1_h1: "Neuropsihologia reprezintă o disciplină aflată la granița dintre psihologie și științe neuronale, fiind încadrată în domeniul neuroștiintelor. Într-un sens restrâns, obiectul său principal este relația dintre creier și comportament. Atenție deosebită o primesc tulburările cognitive și comportamentale cauzate de afecțiuni traumatice ale sistemului nervos central, în special ale creierului. Pacienții clasici pentru cabinetul meu sunt persoanele cu:",
     t1_h1_p1: "• accidente vasculare cerebrale și hemoragii cerebrale,",
     t1_h1_p2: "• traumatisme craniene,",
-    t1_h1_p3: "• tumori cerebrale si boli inflamatorii ale creierului,",
+    t1_h1_p3: "• tumori cerebrale și boli inflamatorii ale creierului,",
     t1_h1_p4: "• demențe,",
     t1_h1_p5: "• M. Parkinson,",
     t1_h1_p6: "• leziuni cerebrale hipoxice.",
@@ -37,7 +37,7 @@ export const RO_CONTENT: ContentLanguage = {
     t2_h1_p5: "• stări afective.",
 
     t3: "Terapia neuropsihologică",
-    t3_h1: "Terapia neuropsihologică se ocupă cu înlaturarea tulburarilor cognitive, emoționale și motivaționale, împreuna cu probleme psihosociale care rezultă din ele. În cazul în care acest lucru nu este posibil, obiectivul este reducerea lor pe cat posibil. Terapia neuropsihologică bazată pe compensație va fi folosită în special în tulburările cronice. În cazul compensației, nu se pune accent doar pe compensația funcțiilor deficitare prin abilitățile încă intacte ci și pe invățarea unor noi strategii. În compensație se învață și cum trebuie să abordăm tulburarea la nivel emoțional prin dezvoltarea unei noi perspective asupra vieții și reintegrarea socială.",
+    t3_h1: "Terapia neuropsihologică se ocupă cu înlaturarea tulburarilor cognitive, emoționale și motivaționale, împreuna cu probleme psihosociale care rezultă din ele. În cazul în care acest lucru nu este posibil, obiectivul este reducerea lor pe cât posibil. Terapia neuropsihologică bazată pe compensație va fi folosită în special în tulburările cronice. În cazul compensației, nu se pune accent doar pe compensația funcțiilor deficitare prin abilitățile încă intacte, ci și pe învățarea unor noi strategii. În compensație se învață și cum trebuie să abordăm tulburarea la nivel emoțional prin dezvoltarea unei noi perspective asupra vieții și reintegrarea socială.",
     t3_h1_p1: "",
     t3_h1_p2: "",
     t3_h1_p3: "",
@@ -58,7 +58,8 @@ export const RO_CONTENT: ContentLanguage = {
 
     t7: "Contact",
     t7_h1: "Adresa: ",
-    t7_h1_p1: "Rosenhügelstraße 192a, 1130 Vienna (în cadrul centrului de reabilitare Rosenhügel).",
+    t7_h1_p1: "1. Rosenhügelstraße 192a, 1130 Viena (în cadrul centrului de reabilitare Rosenhügel).",
+    t7_h1_p2: "2. Rüdengasse 13, Top 3, 1030 Viena",
     t7_h2: "Email: ",
     t7_h2_p1: "neuropsy.raspop@gmail.com",
     t7_h3: "Telefon: ",

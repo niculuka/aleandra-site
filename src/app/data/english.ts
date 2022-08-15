@@ -58,7 +58,8 @@ export const EN_CONTENT: ContentLanguage = {
 
     t7: "Contact",
     t7_h1: "Address: ",
-    t7_h1_p1: "Rosenhügelstraße 192a, 1130 Vienna (inside the rehabilitation center Rosenhügel).",
+    t7_h1_p1: "1. Rosenhügelstraße 192a, 1130 Vienna (inside the rehabilitation center Rosenhügel).",
+    t7_h1_p2: "2. Rüdengasse 13, Top 3, 1030 Vienna",
     t7_h2: "Email: ",
     t7_h2_p1: "neuropsy.raspop@gmail.com",
     t7_h3: "Phone number: ",

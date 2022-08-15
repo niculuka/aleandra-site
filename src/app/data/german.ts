@@ -58,7 +58,8 @@ export const GE_CONTENT: ContentLanguage = {
 
     t7: "Kontakt",
     t7_h1: "Adresse: ",
-    t7_h1_p1: "Rosenhügelstraße 192a, 1130 Wien (die Räumlichkeiten der Praxis befinden sich im NRZ Rosenhügel)",
+    t7_h1_p1: "1. Rosenhügelstraße 192a, 1130 Wien (die Räumlichkeiten der Praxis befinden sich im NRZ Rosenhügel)",
+    t7_h1_p2: "2. Rüdengasse 13, Top 3, 1030 Wien",
     t7_h2: "Email: ",
     t7_h2_p1: "neuropsy.raspop@gmail.com",
     t7_h3: "Telefon: ",
