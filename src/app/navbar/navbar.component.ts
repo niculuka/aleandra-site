@@ -1,5 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { GE_NAVBAR } from 'src/app/data/german';
+import { GE_NAVBAR } from '../data/german';
 import { EN_NAVBAR } from '../data/english';
 import { RO_NAVBAR } from '../data/romanian';
 import { NavbarLanguage } from '../model/languange.model';
