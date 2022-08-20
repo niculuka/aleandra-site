@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GE_CONTENT } from 'src/app/data/german';
+import { GE_CONTENT } from '../data/german';
 import { RO_CONTENT } from '../data/romanian';
 import { EN_CONTENT } from '../data/english';
 import { ContentLanguage } from '../model/languange.model';
