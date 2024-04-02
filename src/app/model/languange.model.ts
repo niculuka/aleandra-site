@@ -16,6 +16,7 @@ export class ContentLanguage {
     tB: string = "";
     tB_h1: string = "";
     tB_h2: string = "";
+    tB_h3: string = "";
 
     t1: string = "";
     t1_h1: string = "";

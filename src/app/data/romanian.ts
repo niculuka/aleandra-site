@@ -18,6 +18,7 @@ export const RO_CONTENT: ContentLanguage = {
     tB: "Mag. Alexandra Raspop",
     tB_h1: "Neuropsiholog",
     tB_h2: "Psiholog clinician",
+    tB_h3: "Psiholog acreditat aflat în relații contractuale cu casa de sănătate pt evaluări psihologice clinice",
 
     t1: "Neuropsihologia",
     t1_h1: "Neuropsihologia reprezintă o disciplină aflată la granița dintre psihologie și științe neuronale, fiind încadrată în domeniul neuroștiintelor. Într-un sens restrâns, obiectul său principal este relația dintre creier și comportament. Atenție deosebită o primesc tulburările cognitive și comportamentale cauzate de afecțiuni traumatice ale sistemului nervos central, în special ale creierului. Pacienții clasici pentru cabinetul meu sunt persoanele cu:",

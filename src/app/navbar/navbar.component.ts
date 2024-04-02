@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, HostListener, OnInit, Output, ViewChild } from '@angular/core';
 import { GE_NAVBAR } from '../data/german';
 import { EN_NAVBAR } from '../data/english';
 import { RO_NAVBAR } from '../data/romanian';
@@ -11,15 +11,15 @@ import { NavbarLanguage } from '../model/languange.model';
 })
 export class NavbarComponent implements OnInit {
 
-  wide = false;
-  checked!: boolean;
+  wide: boolean = false;
+  @ViewChild('select') select: ElementRef | undefined;
 
   currentId: any = "section0";
 
   currentLanguage: string = "german";
   @Output() childMessageEvent = new EventEmitter<string>();
 
-  header: NavbarLanguage = new NavbarLanguage();   
+  header: NavbarLanguage = new NavbarLanguage();
 
   constructor() { }
 
@@ -40,13 +40,18 @@ export class NavbarComponent implements OnInit {
     }
     if (this.currentLanguage === "romanian") {
       this.header = RO_NAVBAR;
-    }    
+    }
+  }
+
+  @HostListener('document:click', ['$event'])
+  clickOut(event: any) {
+    if (this.select?.nativeElement.contains(event.target)) { }
+    else this.wide = false;
   }
 
   wideMenu(): void {
     this.wide = !this.wide;
   }
-
 
   toSection1(ids: any) {
     document.getElementById("section1")?.scrollIntoView({ behavior: 'smooth' });

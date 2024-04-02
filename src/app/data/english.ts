@@ -18,6 +18,7 @@ export const EN_CONTENT: ContentLanguage = {
     tB: "Mag. Alexandra Raspop",
     tB_h1: "Neuropsychologist",
     tB_h2: "Clinical psychologist",
+    tB_h3: "Certified psychologist for clinical-psychological diagnosis",
 
     t1: "Neuropsychology",
     t1_h1: "Neuropsychology as an intersection between psychology and neurology focusses on disorders and abnormalities of the central nervous system, especially the brain. The most frequently encountered neurological disorders associated with cognitive, emotional and behavioural impairments are:",

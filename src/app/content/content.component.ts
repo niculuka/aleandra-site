@@ -11,7 +11,7 @@ import { ContentLanguage } from '../model/languange.model';
 })
 export class ContentComponent implements OnInit {
 
-  currentLanguage: string = "german"
+  currentLanguage: string = "german";
 
   language: ContentLanguage = new ContentLanguage();
 

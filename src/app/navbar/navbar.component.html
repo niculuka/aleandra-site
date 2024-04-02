@@ -13,56 +13,56 @@
                 <a [class.color]="currentLanguage === 'romanian'" (click)="language('romanian')">ro</a>
             </li>
             <li class="pipeUp">|</li>
-            <li class="burger">
-                <label for="check" class="checkbtn" (click)="wideMenu()">
+            <li class="burger" #select>
+                <button mat-icon-button for="check" class="checkbtn" (click)="wideMenu()">
                     <mat-icon>{{wide ? "close": "menu" }}</mat-icon>
-                </label>
+                </button>
             </li>
         </ul>
     </div>
 
-    <input type="checkbox" id="check">
+    <input type="checkbox" [checked]="wide">
 
-    <div class="menu">
-        <ul>
-            <li>
-                <a [class.color]="currentId === 'section1'" (click)="toSection1('section1')">
+    <div class="menu" #select>
+        <ul [style]="{'top': this.wide ? '0' : '-250px'}">
+            <li (click)="toSection1('section1')">
+                <a [class.color]="currentId === 'section1'">
                     {{header.h1}}
                 </a>
             </li>
             <li class="pipe">|</li>
-            <li>
-                <a [class.color]="currentId === 'section2'" (click)="toSection2('section2')">
+            <li (click)="toSection2('section2')">
+                <a [class.color]="currentId === 'section2'">
                     {{header.h2}}
                 </a>
             </li>
             <li class="pipe">|</li>
-            <li>
-                <a [class.color]="currentId === 'section3'" (click)="toSection3('section3')">
+            <li (click)="toSection3('section3')">
+                <a [class.color]="currentId === 'section3'">
                     {{header.h3}}
                 </a>
             </li>
             <li class="pipe">|</li>
-            <li>
-                <a [class.color]="currentId === 'section4'" (click)="toSection4('section4')">
+            <li (click)="toSection4('section4')">
+                <a [class.color]="currentId === 'section4'">
                     {{header.h4}}
                 </a>
             </li>
             <li class="pipe">|</li>
-            <li>
-                <a [class.color]="currentId === 'section5'" (click)="toSection5('section5')">
+            <li (click)="toSection5('section5')">
+                <a [class.color]="currentId === 'section5'">
                     {{header.h5}}
                 </a>
             </li>
             <li class="pipe">|</li>
-            <li>
-                <a [class.color]="currentId === 'section6'" (click)="toSection6('section6')">
+            <li (click)="toSection6('section6')">
+                <a [class.color]="currentId === 'section6'">
                     {{header.h6}}
                 </a>
             </li>
             <li class="pipe">|</li>
-            <li>
-                <a [class.color]="currentId === 'section7'" (click)="toSection7('section7')">
+            <li (click)="toSection7('section7')">
+                <a [class.color]="currentId === 'section7'">
                     {{header.h7}}
                 </a>
             </li>

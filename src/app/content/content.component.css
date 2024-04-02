@@ -1,24 +1,21 @@
 .container {
     margin-top: 200px;
-    padding: 0 3%;    
+    padding: 0 3%;
 }
 
 .head {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    gap: 20px
 }
 
 .description {
-    margin-right: 50px;
+    width: 50%;
 }
 
 .author {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 50px;
+    width: 50%;
 }
 
 .about {
@@ -31,21 +28,15 @@
     padding-right: 14px;
 }
 
-.photo {
-    text-align: center;
-}
-
-img {
-    width: 300px;
-}
-
 .head h1 {
     font-size: 28px;
 }
 
-.head p {
-    font-size: 20px;
-    margin-bottom: 6px;
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 22px;
+    line-height: 28px;
 }
 
 section {
@@ -58,53 +49,70 @@ section {
 }
 
 .paragraph {
+    font-size: 22px;
+    line-height: 32px;
     text-align: justify;
-    line-height: 32px;
-    font-size: 22px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    font-size: 22px;
-    line-height: 32px;
 }
 
 hr {
     color: rgb(201, 201, 201);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1020px) {
+    .container {
+        margin-top: 100px;
+    }
+
+    .head h1 {
+        font-size: 26px;
+    }
+
+    ul {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .paragraph {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    section {
+        scroll-margin-top: 80px;
+    }
+}
+
+@media (max-width: 766px) {
     .head {
         display: flex;
         flex-direction: column;
     }
 
+    .description {
+        width: 100%;
+    }
+
     .author {
-        margin-top: 50px;
+        width: 100%;
     }
 
     .about {
         display: flex;
         flex-direction: column;
     }
-
-    section {
-        scroll-margin-top: 200px;
-    }
 }
 
 @media (max-width: 550px) {
-    .container {
-        margin-top: 100px;
-    }
 
     .description {
         margin-right: 0;
     }
 
     .author {
-        margin-top: 30px;
         margin-right: 0;
         flex-direction: column;
     }
@@ -115,26 +123,15 @@ hr {
 
     ul {
         font-size: 18px;
-        line-height: normal;
     }
 
     .title {
         font-size: 28px;
-        text-align: center;
     }
 
     .paragraph {
-        line-height: 22px;
         font-size: 18px;
-        text-align: left;
-    }
-    
-    img {
-        width: 250px;
-    }
-
-    section {
-        scroll-margin-top: 256px;
+        line-height: 22px;
     }
 
 }

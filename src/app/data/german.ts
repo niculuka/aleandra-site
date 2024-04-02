@@ -18,6 +18,7 @@ export const GE_CONTENT: ContentLanguage = {
     tB: "Mag. Alexandra Raspop",
     tB_h1: "Neuropsychologin",
     tB_h2: "Klinische Psychologin",
+    tB_h3: "Wahlpsychologin für klinisch-psychologische Diagnostik",
 
     t1: "Neuropsychologie",
     t1_h1: "Neuropsychologie als Schnittstelle zwischen Psychologie und Neurologie befasst sich mit Erkrankungen und Auffälligkeiten des zentralen Nervensystems, vor allem des Gehirns. Häufige neurologische Erkrankungen mit assoziierten Beeinträchtigungen und Störungen der kognitiven Leistungsfähigkeit sind:",

@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ContentComponent } from './content/content.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
@@ -22,6 +23,7 @@ import { MatIconModule } from '@angular/material/icon';
     HttpClientModule,
 
     BrowserAnimationsModule,
+    MatButtonModule,
     MatIconModule
   ],
   providers: [],
