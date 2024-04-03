@@ -61,6 +61,8 @@ export class ContentLanguage {
     t7_h1_p2: string = "";
     t7_h2: string = "";
     t7_h2_p1: string = "";
+    t7_h2_p1_MAIL: string = "";
     t7_h3: string = "";
     t7_h3_p1: string = "";
+    t7_h3_p1_CALL: string = "";
 }

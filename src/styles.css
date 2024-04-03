@@ -3,6 +3,7 @@
 body {
     max-width: 1300px;
     margin: auto;
+    cursor: default;
     background-image: url("src/assets/images/axi90.png");
     background-size: 100%;
 }
